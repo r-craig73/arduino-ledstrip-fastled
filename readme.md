@@ -52,7 +52,9 @@
 8. Watch the Christmas light magic!
 
 ## Technologies Used
-`Arduino, FastLED library, C++`
+* `Arduino`
+* `FastLED library` https://github.com/FastLED/FastLED, https://github.com/FastLED/FastLED/wiki/Basic-usage
+* `C++`
 
 ## Support and contact details
 _Please contact ron.craig@comcast.net with any questions._

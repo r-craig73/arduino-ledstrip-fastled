@@ -34,7 +34,7 @@
     </tbody>
 </table>
 
-## Hardware Items
+## Parts Needed
 1. Arduino UNO.
 2. Two (2) 1 meter Tricolor LED strip (each strip contains ten (10) TM1803 IC chips).
 3. 12 VDC, 100mA power supply.
@@ -46,7 +46,8 @@
 2. Install Arduino IDE software on your computer https://www.arduino.cc/en/Main/Software.
 3. Connect USB cable between the Arduino UNO and computer and verify connection (Tools->Port-> /dev/cu.usbmodem000000).
 4. Load FastLed library to UNO (Sketch->Include Library->Manage Libraries, search `FastLed`, Install latest version).
-5. Connect LED strips, jumper wires, and power supply using the following schematic below (schematic diagram coming soon).
+5. Connect LED strips, jumper wires, and power supply using the following schematic below.
+<kbd><img src="./img/LED-strips-diagram.png" alt="LED strips connections"></kbd>
 6. Open (File->Open) library file `xmastree-2LED-strips.ino`.
 7. Verify and load library file.
 8. Watch the Christmas light magic!

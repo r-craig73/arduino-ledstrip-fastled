@@ -36,7 +36,7 @@
 
 ## Parts Needed
 1. Arduino UNO.
-2. Two (2) 1 meter Tricolor LED strip (each strip contains ten (10) TM1803 IC chips).
+2. Two (2) 1 meter Tricolor LED strip. Each strip contains ten (10) TM1803 ICs (Integration Chips).  Each IC controls three (3) RGB LEDs (One strip = 3 LEDs x 10 TM1803 ICs = 30 LEDs).
 3. 12 VDC, 100mA power supply.
 4. Circuit breadboard.
 5. Several jumper wires.
@@ -46,7 +46,7 @@
 2. Install Arduino IDE software on your computer https://www.arduino.cc/en/Main/Software.
 3. Connect USB cable between the Arduino UNO and computer and verify connection (Tools->Port-> /dev/cu.usbmodem000000).
 4. Load FastLed library to UNO (Sketch->Include Library->Manage Libraries, search `FastLed`, Install latest version).
-5. Connect LED strips, jumper wires, and power supply using the following schematic below.
+5. Connect LED strips, jumper wires, and power supply using the following Arduino diagram below.
 <kbd><img src="./img/LED-strips-diagram.png" alt="LED strips connections"></kbd>
 6. Open (File->Open) library file `xmastree-2LED-strips.ino`.
 7. Verify and load library file.
